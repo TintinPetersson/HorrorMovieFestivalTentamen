@@ -106,10 +106,11 @@ namespace UI
             // 
             // buttonTryAgain
             // 
+            this.buttonTryAgain.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonTryAgain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonTryAgain.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonTryAgain.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonTryAgain.Location = new System.Drawing.Point(97, 182);
+            this.buttonTryAgain.Location = new System.Drawing.Point(85, 179);
             this.buttonTryAgain.Name = "buttonTryAgain";
             this.buttonTryAgain.Size = new System.Drawing.Size(117, 43);
             this.buttonTryAgain.TabIndex = 23;
@@ -120,10 +121,11 @@ namespace UI
             // 
             // labelErrorMessage
             // 
+            this.labelErrorMessage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelErrorMessage.AutoSize = true;
             this.labelErrorMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelErrorMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelErrorMessage.Location = new System.Drawing.Point(16, 106);
+            this.labelErrorMessage.Location = new System.Drawing.Point(4, 103);
             this.labelErrorMessage.Name = "labelErrorMessage";
             this.labelErrorMessage.Size = new System.Drawing.Size(76, 25);
             this.labelErrorMessage.TabIndex = 22;
@@ -132,10 +134,11 @@ namespace UI
             // 
             // labelEnterInfo
             // 
+            this.labelEnterInfo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelEnterInfo.AutoSize = true;
             this.labelEnterInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelEnterInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelEnterInfo.Location = new System.Drawing.Point(98, 9);
+            this.labelEnterInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.labelEnterInfo.Location = new System.Drawing.Point(86, 6);
             this.labelEnterInfo.Name = "labelEnterInfo";
             this.labelEnterInfo.Size = new System.Drawing.Size(196, 20);
             this.labelEnterInfo.TabIndex = 21;
@@ -143,8 +146,9 @@ namespace UI
             // 
             // pictureBoxTickets
             // 
+            this.pictureBoxTickets.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxTickets.Image = global::UI.Properties.Resources.CheckmarkIcon2;
-            this.pictureBoxTickets.Location = new System.Drawing.Point(263, 276);
+            this.pictureBoxTickets.Location = new System.Drawing.Point(251, 273);
             this.pictureBoxTickets.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxTickets.Name = "pictureBoxTickets";
             this.pictureBoxTickets.Size = new System.Drawing.Size(24, 20);
@@ -155,11 +159,12 @@ namespace UI
             // 
             // labelTickets
             // 
+            this.labelTickets.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTickets.AutoSize = true;
             this.labelTickets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelTickets.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelTickets.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelTickets.Location = new System.Drawing.Point(98, 259);
+            this.labelTickets.Location = new System.Drawing.Point(86, 256);
             this.labelTickets.Name = "labelTickets";
             this.labelTickets.Size = new System.Drawing.Size(62, 16);
             this.labelTickets.TabIndex = 18;
@@ -168,6 +173,7 @@ namespace UI
             // 
             // comboBoxTickets
             // 
+            this.comboBoxTickets.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBoxTickets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.comboBoxTickets.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxTickets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -195,7 +201,7 @@ namespace UI
             "18",
             "19",
             "20"});
-            this.comboBoxTickets.Location = new System.Drawing.Point(97, 276);
+            this.comboBoxTickets.Location = new System.Drawing.Point(85, 273);
             this.comboBoxTickets.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxTickets.Name = "comboBoxTickets";
             this.comboBoxTickets.Size = new System.Drawing.Size(162, 26);
@@ -205,8 +211,9 @@ namespace UI
             // 
             // pictureBoxPhoneNumber
             // 
+            this.pictureBoxPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxPhoneNumber.Image = global::UI.Properties.Resources.CheckmarkIcon2;
-            this.pictureBoxPhoneNumber.Location = new System.Drawing.Point(263, 236);
+            this.pictureBoxPhoneNumber.Location = new System.Drawing.Point(251, 233);
             this.pictureBoxPhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxPhoneNumber.Name = "pictureBoxPhoneNumber";
             this.pictureBoxPhoneNumber.Size = new System.Drawing.Size(24, 20);
@@ -217,10 +224,11 @@ namespace UI
             // 
             // labelTheaterNumber
             // 
+            this.labelTheaterNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTheaterNumber.AutoSize = true;
             this.labelTheaterNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTheaterNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelTheaterNumber.Location = new System.Drawing.Point(68, 442);
+            this.labelTheaterNumber.Location = new System.Drawing.Point(56, 439);
             this.labelTheaterNumber.Name = "labelTheaterNumber";
             this.labelTheaterNumber.Padding = new System.Windows.Forms.Padding(96, 0, 0, 0);
             this.labelTheaterNumber.Size = new System.Drawing.Size(116, 24);
@@ -230,8 +238,9 @@ namespace UI
             // 
             // pictureBoxLastName
             // 
+            this.pictureBoxLastName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxLastName.Image = global::UI.Properties.Resources.CheckmarkIcon1;
-            this.pictureBoxLastName.Location = new System.Drawing.Point(263, 195);
+            this.pictureBoxLastName.Location = new System.Drawing.Point(251, 192);
             this.pictureBoxLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxLastName.Name = "pictureBoxLastName";
             this.pictureBoxLastName.Size = new System.Drawing.Size(24, 20);
@@ -253,8 +262,9 @@ namespace UI
             // 
             // pictureBoxFirstName
             // 
+            this.pictureBoxFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxFirstName.Image = global::UI.Properties.Resources.CheckmarkIcon;
-            this.pictureBoxFirstName.Location = new System.Drawing.Point(263, 155);
+            this.pictureBoxFirstName.Location = new System.Drawing.Point(251, 152);
             this.pictureBoxFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxFirstName.Name = "pictureBoxFirstName";
             this.pictureBoxFirstName.Size = new System.Drawing.Size(24, 20);
@@ -265,11 +275,12 @@ namespace UI
             // 
             // labelTheaterTitle
             // 
+            this.labelTheaterTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTheaterTitle.AutoSize = true;
             this.labelTheaterTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelTheaterTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTheaterTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.labelTheaterTitle.Location = new System.Drawing.Point(79, 418);
+            this.labelTheaterTitle.Location = new System.Drawing.Point(67, 415);
             this.labelTheaterTitle.Name = "labelTheaterTitle";
             this.labelTheaterTitle.Padding = new System.Windows.Forms.Padding(60, 0, 0, 0);
             this.labelTheaterTitle.Size = new System.Drawing.Size(140, 24);
@@ -279,10 +290,11 @@ namespace UI
             // 
             // labelAmount
             // 
+            this.labelAmount.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelAmount.AutoSize = true;
             this.labelAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelAmount.Location = new System.Drawing.Point(68, 394);
+            this.labelAmount.Location = new System.Drawing.Point(56, 391);
             this.labelAmount.Name = "labelAmount";
             this.labelAmount.Padding = new System.Windows.Forms.Padding(96, 0, 0, 0);
             this.labelAmount.Size = new System.Drawing.Size(116, 24);
@@ -292,13 +304,14 @@ namespace UI
             // 
             // buttonBook
             // 
+            this.buttonBook.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonBook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.buttonBook.Enabled = false;
             this.buttonBook.FlatAppearance.BorderSize = 0;
             this.buttonBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonBook.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonBook.Location = new System.Drawing.Point(97, 317);
+            this.buttonBook.Location = new System.Drawing.Point(85, 314);
             this.buttonBook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonBook.Name = "buttonBook";
             this.buttonBook.Size = new System.Drawing.Size(160, 40);
@@ -310,10 +323,11 @@ namespace UI
             // 
             // labelTicketsLeft
             // 
+            this.labelTicketsLeft.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTicketsLeft.AutoSize = true;
             this.labelTicketsLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTicketsLeft.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.labelTicketsLeft.Location = new System.Drawing.Point(79, 370);
+            this.labelTicketsLeft.Location = new System.Drawing.Point(67, 367);
             this.labelTicketsLeft.Name = "labelTicketsLeft";
             this.labelTicketsLeft.Padding = new System.Windows.Forms.Padding(52, 0, 0, 0);
             this.labelTicketsLeft.Size = new System.Drawing.Size(171, 24);
@@ -323,11 +337,12 @@ namespace UI
             // 
             // textBoxPhoneNumber
             // 
+            this.textBoxPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPhoneNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.textBoxPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.textBoxPhoneNumber.Location = new System.Drawing.Point(98, 234);
+            this.textBoxPhoneNumber.Location = new System.Drawing.Point(86, 231);
             this.textBoxPhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxPhoneNumber.Name = "textBoxPhoneNumber";
             this.textBoxPhoneNumber.Size = new System.Drawing.Size(161, 22);
@@ -340,10 +355,11 @@ namespace UI
             // 
             // labelPhoneNumber
             // 
+            this.labelPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelPhoneNumber.AutoSize = true;
             this.labelPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelPhoneNumber.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelPhoneNumber.Location = new System.Drawing.Point(98, 220);
+            this.labelPhoneNumber.Location = new System.Drawing.Point(86, 217);
             this.labelPhoneNumber.Name = "labelPhoneNumber";
             this.labelPhoneNumber.Size = new System.Drawing.Size(113, 16);
             this.labelPhoneNumber.TabIndex = 15;
@@ -352,11 +368,12 @@ namespace UI
             // 
             // textBoxLastName
             // 
+            this.textBoxLastName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxLastName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.textBoxLastName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxLastName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.textBoxLastName.Location = new System.Drawing.Point(98, 195);
+            this.textBoxLastName.Location = new System.Drawing.Point(86, 192);
             this.textBoxLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(161, 22);
@@ -369,10 +386,11 @@ namespace UI
             // 
             // labelLastName
             // 
+            this.labelLastName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelLastName.AutoSize = true;
             this.labelLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelLastName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelLastName.Location = new System.Drawing.Point(98, 180);
+            this.labelLastName.Location = new System.Drawing.Point(86, 177);
             this.labelLastName.Name = "labelLastName";
             this.labelLastName.Size = new System.Drawing.Size(85, 16);
             this.labelLastName.TabIndex = 12;
@@ -381,11 +399,12 @@ namespace UI
             // 
             // textBoxFirstName
             // 
+            this.textBoxFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxFirstName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.textBoxFirstName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxFirstName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
-            this.textBoxFirstName.Location = new System.Drawing.Point(98, 155);
+            this.textBoxFirstName.Location = new System.Drawing.Point(86, 152);
             this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(161, 22);
@@ -398,10 +417,11 @@ namespace UI
             // 
             // labelFirstName
             // 
+            this.labelFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelFirstName.AutoSize = true;
             this.labelFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelFirstName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelFirstName.Location = new System.Drawing.Point(98, 136);
+            this.labelFirstName.Location = new System.Drawing.Point(86, 133);
             this.labelFirstName.Name = "labelFirstName";
             this.labelFirstName.Size = new System.Drawing.Size(86, 16);
             this.labelFirstName.TabIndex = 3;
@@ -410,6 +430,7 @@ namespace UI
             // 
             // comboBoxSelectTime
             // 
+            this.comboBoxSelectTime.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBoxSelectTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.comboBoxSelectTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSelectTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -421,7 +442,7 @@ namespace UI
             "22:00 - 00:00",
             "00:00 - 02:00",
             "02:00 - 04:00"});
-            this.comboBoxSelectTime.Location = new System.Drawing.Point(98, 106);
+            this.comboBoxSelectTime.Location = new System.Drawing.Point(86, 103);
             this.comboBoxSelectTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxSelectTime.Name = "comboBoxSelectTime";
             this.comboBoxSelectTime.Size = new System.Drawing.Size(161, 28);
@@ -433,10 +454,11 @@ namespace UI
             // 
             // labelSelectTime
             // 
+            this.labelSelectTime.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelSelectTime.AutoSize = true;
             this.labelSelectTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelSelectTime.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelSelectTime.Location = new System.Drawing.Point(98, 91);
+            this.labelSelectTime.Location = new System.Drawing.Point(86, 88);
             this.labelSelectTime.Name = "labelSelectTime";
             this.labelSelectTime.Size = new System.Drawing.Size(94, 16);
             this.labelSelectTime.TabIndex = 10;
@@ -445,11 +467,12 @@ namespace UI
             // 
             // checkBoxNo
             // 
+            this.checkBoxNo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBoxNo.AutoSize = true;
             this.checkBoxNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.checkBoxNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBoxNo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.checkBoxNo.Location = new System.Drawing.Point(98, 70);
+            this.checkBoxNo.Location = new System.Drawing.Point(86, 67);
             this.checkBoxNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxNo.Name = "checkBoxNo";
             this.checkBoxNo.Size = new System.Drawing.Size(44, 20);
@@ -460,11 +483,12 @@ namespace UI
             // 
             // checkBoxYes
             // 
+            this.checkBoxYes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBoxYes.AutoSize = true;
             this.checkBoxYes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.checkBoxYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBoxYes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.checkBoxYes.Location = new System.Drawing.Point(98, 52);
+            this.checkBoxYes.Location = new System.Drawing.Point(86, 49);
             this.checkBoxYes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxYes.Name = "checkBoxYes";
             this.checkBoxYes.Size = new System.Drawing.Size(51, 20);
@@ -475,10 +499,11 @@ namespace UI
             // 
             // labelWheelChair
             // 
+            this.labelWheelChair.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelWheelChair.AutoSize = true;
             this.labelWheelChair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelWheelChair.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelWheelChair.Location = new System.Drawing.Point(97, 37);
+            this.labelWheelChair.Location = new System.Drawing.Point(85, 34);
             this.labelWheelChair.Name = "labelWheelChair";
             this.labelWheelChair.Size = new System.Drawing.Size(89, 16);
             this.labelWheelChair.TabIndex = 6;

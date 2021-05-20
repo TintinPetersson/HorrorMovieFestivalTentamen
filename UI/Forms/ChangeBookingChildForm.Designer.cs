@@ -30,6 +30,7 @@ namespace UI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxTickets = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -50,6 +51,7 @@ namespace UI
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBoxTickets);
             this.panel1.Controls.Add(this.button1);
@@ -67,8 +69,22 @@ namespace UI
             this.panel1.Size = new System.Drawing.Size(816, 471);
             this.panel1.TabIndex = 0;
             // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Location = new System.Drawing.Point(613, 413);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(66, 24);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "label7";
+            // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::UI.Properties.Resources.check_mark_transparent_gif_18;
             this.pictureBox1.Location = new System.Drawing.Point(474, 46);
             this.pictureBox1.Name = "pictureBox1";
@@ -80,6 +96,7 @@ namespace UI
             // 
             // pictureBoxTickets
             // 
+            this.pictureBoxTickets.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxTickets.Image = global::UI.Properties.Resources.CheckmarkIcon2;
             this.pictureBoxTickets.Location = new System.Drawing.Point(169, 285);
             this.pictureBoxTickets.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -92,6 +109,7 @@ namespace UI
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -107,6 +125,7 @@ namespace UI
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -119,6 +138,7 @@ namespace UI
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -131,6 +151,7 @@ namespace UI
             // 
             // comboBoxTickets
             // 
+            this.comboBoxTickets.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBoxTickets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.comboBoxTickets.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxTickets.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -165,6 +186,7 @@ namespace UI
             // 
             // pictureBoxSelectedMovie
             // 
+            this.pictureBoxSelectedMovie.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxSelectedMovie.Location = new System.Drawing.Point(600, 11);
             this.pictureBoxSelectedMovie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxSelectedMovie.Name = "pictureBoxSelectedMovie";
@@ -176,6 +198,7 @@ namespace UI
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -187,6 +210,7 @@ namespace UI
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
@@ -198,6 +222,7 @@ namespace UI
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -209,6 +234,7 @@ namespace UI
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
@@ -251,5 +277,6 @@ namespace UI
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBoxTickets;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label7;
     }
 }

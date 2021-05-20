@@ -40,9 +40,8 @@ namespace UI
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::UI.Properties.Resources.BossyVillainousAsianconstablebutterfly_size_restricted;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(933, 628);
+            this.pictureBox1.Size = new System.Drawing.Size(816, 471);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -56,19 +55,18 @@ namespace UI
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            this.label1.Size = new System.Drawing.Size(270, 52);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 15, 0, 0);
+            this.label1.Size = new System.Drawing.Size(215, 40);
             this.label1.TabIndex = 2;
             this.label1.Text = "Hereditary Trailer (2018)";
             // 
             // HomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(933, 628);
+            this.ClientSize = new System.Drawing.Size(816, 471);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "HomeForm";
             this.Text = "HomeForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

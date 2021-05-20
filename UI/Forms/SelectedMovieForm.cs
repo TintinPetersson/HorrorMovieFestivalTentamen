@@ -537,6 +537,8 @@ namespace UI
         {
             if (checkBoxYes.Checked == true)
             {
+                checkBoxYes.ForeColor = Color.FromArgb(192, 192, 0);
+                checkBoxNo.ForeColor = Color.White;
                 textBoxFirstName.Text = "";
                 textBoxLastName.Text = "";
                 textBoxPhoneNumber.Text = "";
@@ -563,6 +565,8 @@ namespace UI
             }
             else if (checkBoxNo.Checked == true)
             {
+                checkBoxNo.ForeColor = Color.FromArgb(192, 192, 0);
+                checkBoxYes.ForeColor = Color.White;
                 textBoxFirstName.Text = "";
                 textBoxLastName.Text = "";
                 textBoxPhoneNumber.Text = "";
@@ -591,6 +595,8 @@ namespace UI
         {
             if (checkBoxNo.Checked == true)
             {
+                checkBoxNo.ForeColor = Color.FromArgb(192, 192, 0);
+                checkBoxYes.ForeColor = Color.White;
                 textBoxFirstName.Text = "";
                 textBoxLastName.Text = "";
                 textBoxPhoneNumber.Text = "";
@@ -616,6 +622,8 @@ namespace UI
             }
             else if (checkBoxYes.Checked == true)
             {
+                checkBoxYes.ForeColor = Color.FromArgb(192, 192, 0);
+                checkBoxNo.ForeColor = Color.White;
                 textBoxFirstName.Text = "";
                 textBoxLastName.Text = "";
                 textBoxPhoneNumber.Text = "";

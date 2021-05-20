@@ -74,6 +74,7 @@ namespace UI
             // 
             // buttonHome
             // 
+            this.buttonHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonHome.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.buttonHome.FlatAppearance.BorderSize = 0;
             this.buttonHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -112,6 +113,7 @@ namespace UI
             // buttonCancel
             // 
             this.buttonCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(65)))), ((int)(((byte)(75)))));
+            this.buttonCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonCancel.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonCancel.FlatAppearance.BorderSize = 0;
             this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -130,6 +132,7 @@ namespace UI
             // buttonChange
             // 
             this.buttonChange.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(65)))), ((int)(((byte)(75)))));
+            this.buttonChange.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonChange.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonChange.FlatAppearance.BorderSize = 0;
             this.buttonChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -147,6 +150,7 @@ namespace UI
             // 
             // buttonBooking
             // 
+            this.buttonBooking.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonBooking.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonBooking.FlatAppearance.BorderSize = 0;
             this.buttonBooking.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -164,6 +168,7 @@ namespace UI
             // 
             // buttonMovies
             // 
+            this.buttonMovies.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonMovies.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonMovies.FlatAppearance.BorderSize = 0;
             this.buttonMovies.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -216,28 +221,32 @@ namespace UI
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(110, 35, 0, 0);
-            this.label2.Size = new System.Drawing.Size(924, 126);
+            this.label2.Padding = new System.Windows.Forms.Padding(110, 25, 0, 0);
+            this.label2.Size = new System.Drawing.Size(770, 98);
             this.label2.TabIndex = 2;
             this.label2.Text = "Horror Movie Festival";
             // 
             // buttonExit
             // 
+            this.buttonExit.AutoSize = true;
             this.buttonExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.buttonExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonExit.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonExit.FlatAppearance.BorderSize = 0;
             this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonExit.Location = new System.Drawing.Point(890, 12);
+            this.buttonExit.Location = new System.Drawing.Point(883, 0);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(48, 44);
+            this.buttonExit.Size = new System.Drawing.Size(67, 125);
             this.buttonExit.TabIndex = 1;
             this.buttonExit.Text = "X";
+            this.buttonExit.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.buttonExit.UseVisualStyleBackColor = false;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
@@ -261,7 +270,7 @@ namespace UI
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            this.label1.Size = new System.Drawing.Size(270, 52);
+            this.label1.Size = new System.Drawing.Size(215, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "Hereditary Trailer (2018)";
             // 
@@ -287,7 +296,8 @@ namespace UI
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelSideMenu);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MinimumSize = new System.Drawing.Size(1200, 800);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.MinimumSize = new System.Drawing.Size(1216, 839);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Horror Movie Festival";

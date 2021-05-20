@@ -34,6 +34,7 @@ namespace UI.Forms
             label2.Text = $"You have: {customer.Tickets.Count} tickets";
             label3.Text = $"Phone Number: {customer.PhoneNumber}";
             label4.Text = $"Movie: {movie.Name}";
+            label5.Text = $"Movie start time:\n{theater.StartTime}";
             label6.Text = $"Press delete if you want to cancel your tickets.";
         }
         private void buttonDelete_Click(object sender, EventArgs e)

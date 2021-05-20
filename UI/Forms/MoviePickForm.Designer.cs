@@ -361,8 +361,9 @@ namespace UI
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::UI.Properties.Resources.arrow_100px2;
-            this.pictureBox1.Location = new System.Drawing.Point(248, 280);
+            this.pictureBox1.Location = new System.Drawing.Point(248, 214);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(134, 113);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -376,7 +377,7 @@ namespace UI
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(180, 164);
+            this.label2.Location = new System.Drawing.Point(180, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(308, 55);
             this.label2.TabIndex = 2;

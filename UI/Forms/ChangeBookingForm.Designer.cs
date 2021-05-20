@@ -31,6 +31,7 @@ namespace UI
         {
             this.labelPhoneNumber = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.labelCustomerDoesNotExist = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBoxPhoneNumber = new System.Windows.Forms.PictureBox();
@@ -55,6 +56,7 @@ namespace UI
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.labelCustomerDoesNotExist);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.pictureBoxPhoneNumber);
@@ -67,8 +69,21 @@ namespace UI
             this.panel1.Size = new System.Drawing.Size(816, 471);
             this.panel1.TabIndex = 18;
             // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(120)))), ((int)(((byte)(138)))));
+            this.label3.Location = new System.Drawing.Point(313, 52);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(179, 29);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Modify Booking";
+            // 
             // labelCustomerDoesNotExist
             // 
+            this.labelCustomerDoesNotExist.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelCustomerDoesNotExist.AutoSize = true;
             this.labelCustomerDoesNotExist.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelCustomerDoesNotExist.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -81,6 +96,7 @@ namespace UI
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -92,6 +108,7 @@ namespace UI
             // 
             // pictureBoxPhoneNumber
             // 
+            this.pictureBoxPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxPhoneNumber.Image = global::UI.Properties.Resources.CheckmarkIcon;
             this.pictureBoxPhoneNumber.Location = new System.Drawing.Point(562, 164);
             this.pictureBoxPhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -104,6 +121,7 @@ namespace UI
             // 
             // buttonEnter
             // 
+            this.buttonEnter.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonEnter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -118,6 +136,7 @@ namespace UI
             // 
             // textBoxPhoneNumber
             // 
+            this.textBoxPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPhoneNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.textBoxPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -134,6 +153,7 @@ namespace UI
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -172,5 +192,6 @@ namespace UI
         private System.Windows.Forms.PictureBox pictureBoxPhoneNumber;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelCustomerDoesNotExist;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -37,6 +37,7 @@ namespace UI
             label4.Text = $"Movie: {movie.Name}";
             label5.Text = $"Tickets left: {theater.SeatsLeft}\nPlus your : {customer.Tickets.Count} tickets";
             label6.Text = $"How many tickets, in total, do you want?";
+            label7.Text = $"Movie start time:\n{theater.StartTime}";
         }
         private void comboBoxTickets_SelectedIndexChanged(object sender, EventArgs e)
         {
