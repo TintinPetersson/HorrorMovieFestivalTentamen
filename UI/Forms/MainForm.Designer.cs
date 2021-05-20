@@ -157,7 +157,7 @@ namespace UI
             this.buttonBooking.Name = "buttonBooking";
             this.buttonBooking.Size = new System.Drawing.Size(250, 157);
             this.buttonBooking.TabIndex = 2;
-            this.buttonBooking.Text = "Booking";
+            this.buttonBooking.Text = "Change Booking";
             this.buttonBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.buttonBooking.UseVisualStyleBackColor = true;
             this.buttonBooking.Click += new System.EventHandler(this.buttonBooking_Click);
@@ -174,7 +174,7 @@ namespace UI
             this.buttonMovies.Name = "buttonMovies";
             this.buttonMovies.Size = new System.Drawing.Size(250, 157);
             this.buttonMovies.TabIndex = 1;
-            this.buttonMovies.Text = "Movies";
+            this.buttonMovies.Text = "Get a Ticket!";
             this.buttonMovies.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonMovies.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.buttonMovies.UseVisualStyleBackColor = true;
@@ -218,11 +218,11 @@ namespace UI
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(110, 35, 0, 0);
-            this.label2.Size = new System.Drawing.Size(770, 108);
+            this.label2.Size = new System.Drawing.Size(924, 126);
             this.label2.TabIndex = 2;
             this.label2.Text = "Horror Movie Festival";
             // 
@@ -258,9 +258,10 @@ namespace UI
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(27, 17);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 25);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.label1.Size = new System.Drawing.Size(270, 52);
             this.label1.TabIndex = 1;
             this.label1.Text = "Hereditary Trailer (2018)";
             // 
@@ -279,13 +280,13 @@ namespace UI
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1200, 800);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelSideMenu);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(1200, 800);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

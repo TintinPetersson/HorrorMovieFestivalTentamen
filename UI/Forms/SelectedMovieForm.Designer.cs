@@ -547,7 +547,6 @@ namespace UI
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox comboBoxSelectTime;
         private System.Windows.Forms.Label labelSelectTime;

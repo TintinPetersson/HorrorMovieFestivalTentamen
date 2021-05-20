@@ -81,7 +81,7 @@ namespace UI
         }
         private void SearchHittingEnterOrButtonClick()
         {
-            if (festivalHandler.CheckIfCustomerExists(textBoxPhoneNumber.Text) == true)
+            if (festivalHandler.CheckIfCustomerExists(textBoxPhoneNumber.Text))
             {
                 customer = festivalHandler.GetExistingCustomer(textBoxPhoneNumber.Text);
                 OpenChildForm(new ChangeBookingChildForm());

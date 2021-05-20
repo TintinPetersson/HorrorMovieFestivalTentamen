@@ -121,11 +121,11 @@ namespace Logic
 
             modelBuilder.Entity<Theater>().HasData(
                 //20-22:00 Pass
-                new Theater { Id = 1, RoomNumber = 1, MovieId = 1, StartTime = new DateTime (2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
-                new Theater { Id = 2, RoomNumber = 2, MovieId = 2, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
-                new Theater { Id = 3, RoomNumber = 3, MovieId = 3, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
-                new Theater { Id = 4, RoomNumber = 4, MovieId = 4, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
-                new Theater { Id = 5, RoomNumber = 5, MovieId = 5, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
+                new Theater { Id = 1, RoomNumber = 1, MovieId = 1, StartTime = new DateTime (2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false, OccupiedSeats = 1 },
+                new Theater { Id = 2, RoomNumber = 2, MovieId = 2, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false, OccupiedSeats = 1 },
+                new Theater { Id = 3, RoomNumber = 3, MovieId = 3, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false, OccupiedSeats = 1 },
+                new Theater { Id = 4, RoomNumber = 4, MovieId = 4, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false, OccupiedSeats = 1 },
+                new Theater { Id = 5, RoomNumber = 5, MovieId = 5, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false, OccupiedSeats = 1 },
                 new Theater { Id = 6, RoomNumber = 6, MovieId = 6, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
                 new Theater { Id = 7, RoomNumber = 7, MovieId = 7, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
                 new Theater { Id = 8, RoomNumber = 8, MovieId = 8, StartTime = new DateTime(2021, 06, 22, 20, 00, 00), GotWheelchairRamp = false },
@@ -167,6 +167,56 @@ namespace Logic
                 new Theater { Id = 38, RoomNumber = 8, MovieId = 10, StartTime = new DateTime(2021, 06, 23, 02, 00, 00), GotWheelchairRamp = false },
                 new Theater { Id = 39, RoomNumber = 9, MovieId = 6, StartTime = new DateTime(2021, 06, 23, 02, 00, 00), GotWheelchairRamp = true },
                 new Theater { Id = 40, RoomNumber = 10, MovieId = 5, StartTime = new DateTime(2021, 06, 23, 02, 00, 00), GotWheelchairRamp = true }
+                );
+
+            modelBuilder.Entity<Customer>().HasData(
+                new Customer
+                {
+                    Id = 1,
+                    FirstName = "Christopher",
+                    LastName = "Nolan",
+                    PhoneNumber = "0706793579",
+                },
+
+                 new Customer
+                 {
+                     Id = 2,
+                     FirstName = "Steven",
+                     LastName = "Spielberg",
+                     PhoneNumber = "0704013422",
+                 },
+
+                 new Customer
+                 {
+                     Id = 3,
+                     FirstName = "Michael",
+                     LastName = "Bay",
+                     PhoneNumber = "0706537935",
+                 },
+
+                 new Customer
+                 {
+                     Id = 4,
+                     FirstName = "Peter",
+                     LastName = "Jackson",
+                     PhoneNumber = "0706537982",
+                 },
+
+                 new Customer
+                 {
+                     Id = 5,
+                     FirstName = "Guy",
+                     LastName = "Ritchie",
+                     PhoneNumber = "0706542982",
+                 }
+                );
+
+            modelBuilder.Entity<Ticket>().HasData(
+                new Ticket { Id = 1, CustomerId = 1, Seat = 1, TheaterId = 1, Wheelchair = false },
+                new Ticket { Id = 2, CustomerId = 2, Seat = 1, TheaterId = 2, Wheelchair = false },
+                new Ticket { Id = 3, CustomerId = 3, Seat = 1, TheaterId = 3, Wheelchair = false },
+                new Ticket { Id = 4, CustomerId = 4, Seat = 1, TheaterId = 4, Wheelchair = false },
+                new Ticket { Id = 5, CustomerId = 5, Seat = 1, TheaterId = 5, Wheelchair = false }
                 );
          }           
     }

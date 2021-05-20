@@ -31,7 +31,7 @@ namespace UI
 
             pictureBoxSelectedMovie.Image = Image.FromFile(movie.PicturePath);
 
-            label1.Text = $"Name: {customer.FirstName}";
+            label1.Text = $"Name: {customer.FirstName} {customer.LastName}";
             label2.Text = $"You have: {customer.Tickets.Count} tickets";
             label3.Text = $"Phone Number: {customer.PhoneNumber}";
             label4.Text = $"Movie: {movie.Name}";
@@ -73,6 +73,7 @@ namespace UI
 
             label4.Visible = false;
             label6.Visible = false;
+            label5.Visible = false;
 
             label1.Text = "Succesful!";
             label2.Text = $"New ticket amount: {comboBoxTickets.Text}";

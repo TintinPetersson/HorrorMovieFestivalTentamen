@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logic.Functions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace UI
 {
     public partial class MainForm : Form
     {
+        FestivalHandler festivalhandler = new FestivalHandler();
         public MainForm()
         {
             InitializeComponent();

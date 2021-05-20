@@ -22,7 +22,6 @@ namespace Logic.Functions
             //10 minimum digits
             phoneNumberRegexValid = new Regex(@"^([0-9]{10,15})$");
         }
-
         public Movie GetTickets(Customer customer)
         {
             var tickets = context.Tickets.Where(c => c.CustomerId == customer.Id).FirstOrDefault();
@@ -84,6 +83,21 @@ namespace Logic.Functions
                 theater.OccupiedSeats += 1;
                 newCustomer.Tickets.Add(new Ticket { TheaterId = theater.Id, CustomerId = customer.Id, Seat = theater.OccupiedSeats, Wheelchair = theater.GotWheelchairRamp });
             }
+
+            context.SaveChanges();
+        }
+        public void RemoveCustomer(Customer customer)
+        {
+            var ticketsToRemove = context.Tickets.Where(t => t.CustomerId == customer.Id).ToList();
+
+            foreach (var ticket in ticketsToRemove)
+            {
+                ticket.Theater.OccupiedSeats--;
+                context.Tickets.Remove(ticket);
+            }
+
+            customer.Tickets.Clear();
+            context.Customers.Remove(customer);
 
             context.SaveChanges();
         }
