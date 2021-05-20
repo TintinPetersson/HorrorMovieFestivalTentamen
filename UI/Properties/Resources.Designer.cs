@@ -293,16 +293,6 @@ namespace UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pngfind_com_cancel_png_2081798 {
-            get {
-                object obj = ResourceManager.GetObject("pngfind.com-cancel-png-2081798", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Psycho___Poster {
             get {
                 object obj = ResourceManager.GetObject("Psycho - Poster", resourceCulture);

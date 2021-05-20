@@ -69,7 +69,7 @@ namespace UI
             this.panelSideMenu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(250, 800);
+            this.panelSideMenu.Size = new System.Drawing.Size(250, 839);
             this.panelSideMenu.TabIndex = 0;
             // 
             // buttonHome
@@ -81,7 +81,7 @@ namespace UI
             this.buttonHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonHome.Image = global::UI.Properties.Resources.home_page_64px;
-            this.buttonHome.Location = new System.Drawing.Point(0, 662);
+            this.buttonHome.Location = new System.Drawing.Point(0, 701);
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(250, 138);
             this.buttonHome.TabIndex = 5;
@@ -214,7 +214,7 @@ namespace UI
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(250, 0);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(950, 125);
+            this.panelHeader.Size = new System.Drawing.Size(966, 125);
             this.panelHeader.TabIndex = 1;
             // 
             // label2
@@ -241,7 +241,7 @@ namespace UI
             this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonExit.Location = new System.Drawing.Point(883, 0);
+            this.buttonExit.Location = new System.Drawing.Point(899, 0);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(67, 125);
             this.buttonExit.TabIndex = 1;
@@ -258,7 +258,7 @@ namespace UI
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(250, 125);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(950, 675);
+            this.panelChildForm.Size = new System.Drawing.Size(966, 714);
             this.panelChildForm.TabIndex = 2;
             // 
             // label1
@@ -281,7 +281,7 @@ namespace UI
             this.pictureBox1.Image = global::UI.Properties.Resources.BossyVillainousAsianconstablebutterfly_size_restricted;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(950, 675);
+            this.pictureBox1.Size = new System.Drawing.Size(966, 714);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -291,12 +291,12 @@ namespace UI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.ClientSize = new System.Drawing.Size(1216, 839);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelSideMenu);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(1216, 839);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
