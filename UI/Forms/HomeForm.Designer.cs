@@ -38,7 +38,7 @@ namespace UI
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::UI.Properties.Resources.BossyVillainousAsianconstablebutterfly_size_restricted;
+            this.pictureBox1.Image = global::UI.Properties.Resources.source1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(816, 471);
@@ -56,9 +56,9 @@ namespace UI
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(0, 15, 0, 0);
-            this.label1.Size = new System.Drawing.Size(215, 40);
+            this.label1.Size = new System.Drawing.Size(90, 40);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Hereditary Trailer (2018)";
+            this.label1.Text = "Us (2019)";
             // 
             // HomeForm
             // 

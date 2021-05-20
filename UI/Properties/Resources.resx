@@ -112,89 +112,38 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Get Out - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Get Out - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Us-Trailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Us-Trailer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home_page_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_page_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="The Invisible Man - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\The Invisible Man - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Alien - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Alien - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Psycho - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Psycho - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Let the Right One In - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Let the Right One In - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CheckmarkIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\net5.0-windows\CheckmarkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="The Babadook - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\The Babadook - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="movie_ticket_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\movie_ticket_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clapperboard_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\clapperboard_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BossyVillainousAsianconstablebutterfly-size_restricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BossyVillainousAsianconstablebutterfly-size_restricted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gifs 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gifs 8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ticket_purchase_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ticket_purchase_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="check-mark-transparent-gif-18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\check-mark-transparent-gif-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CheckmarkIcon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\net5.0-windows\CheckmarkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="movie_ticket_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\movie_ticket_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="A Quiet Place - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\A Quiet Place - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arrow_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Alien - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alien - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clapperboard_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\clapperboard_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="The Invisible Man - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Invisible Man - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Let the Right One In - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Let the Right One In - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BossyVillainousAsianconstablebutterfly-size_restricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BossyVillainousAsianconstablebutterfly-size_restricted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Us - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Us - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CheckmarkIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\net5.0-windows\CheckmarkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Jaws - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jaws - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hereditary - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hereditary - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CheckmarkIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\net5.0-windows\CheckmarkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +151,61 @@
   <data name="delete_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CheckmarkIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\net5.0-windows\CheckmarkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_ticket_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_ticket_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_ticket_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_ticket_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Babadook - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Babadook - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="source" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\source.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jaws - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jaws - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Get Out - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Get Out - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Psycho - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Psycho - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clapperboard_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clapperboard_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ticket_purchase_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ticket_purchase_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clapperboard_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clapperboard_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gifs 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gifs 8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hereditary - Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hereditary - Poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckmarkIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\net5.0-windows\CheckmarkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_page_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_page_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-mark-transparent-gif-18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-mark-transparent-gif-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="arrow_100px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="source1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\source.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

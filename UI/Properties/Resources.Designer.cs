@@ -303,6 +303,26 @@ namespace UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap source {
+            get {
+                object obj = ResourceManager.GetObject("source", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap source1 {
+            get {
+                object obj = ResourceManager.GetObject("source1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap The_Babadook___Poster {
             get {
                 object obj = ResourceManager.GetObject("The Babadook - Poster", resourceCulture);
@@ -336,16 +356,6 @@ namespace UI.Properties {
         internal static System.Drawing.Bitmap Us___Poster {
             get {
                 object obj = ResourceManager.GetObject("Us - Poster", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Us_Trailer {
-            get {
-                object obj = ResourceManager.GetObject("Us-Trailer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
