@@ -14,5 +14,13 @@ namespace Logic
         {
             Tickets = new List<Ticket>();
         }
+        public Customer(Customer customer)
+        {
+            this.Id = customer.Id;
+            this.FirstName = customer.FirstName;
+            this.LastName = customer.LastName;
+            this.PhoneNumber = customer.PhoneNumber;
+            Tickets = new List<Ticket>();
+        }
     }
 }
